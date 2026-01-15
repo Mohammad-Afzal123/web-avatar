@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import { ChangeEvent } from "react";
+import type { ChangeEvent } from "react";
 import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
 
